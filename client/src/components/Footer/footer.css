@@ -1,0 +1,8 @@
+.footer {
+    background-color: rgb(77, 200, 238);
+    height: 60px;
+}
+#facebook2, #linkedin2 {
+    color: black;
+    font-size: 25px;
+}

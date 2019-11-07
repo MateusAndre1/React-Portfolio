@@ -1,13 +1,15 @@
-import React from "react";
-import { Col, Row, Container } from "../components/Grid";
-import Jumbotron from "../components/Jumbotron";
+import React, { Component } from 'react';
+// import { Col, Row, Container } from "../components/Grid";
+import Jumbotron from "../../components/Jumbotron";
 
-function About() {
-  return (
-          <Jumbotron>
+class Projects extends Component {
+    render() {
+        return (
+            <Jumbotron>
 
           </Jumbotron>
-  );
+        )
+    }
 }
 
-export default About;
+export default Projects

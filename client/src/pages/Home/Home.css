@@ -1,0 +1,22 @@
+@keyframes slideInFromLeft {
+    0% {
+      transform: translateX(-100%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+
+#homeJ {
+    min-height: 130vh;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 450px) {
+    #homeJ {
+        font-size: 50px;
+    }
+	
+}

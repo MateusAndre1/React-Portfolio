@@ -1,8 +1,8 @@
 import React from "react";
 
-function Jumbotron({ children }) {
+function Jumbotron(props, { children }) {
   return (
-    <div className="jumbotron">
+    <div className="jumbotron" id={props.id}>
       {children}
     </div>
   );

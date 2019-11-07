@@ -1,13 +1,15 @@
-import React from "react";
-import { Col, Row, Container } from "../components/Grid";
-import Jumbotron from "../components/Jumbotron";
+import React, { Component } from 'react';
+import VideoBg from "../../components/VideoBg"
+import "./Home.css";
 
-function Home() {
-  return (
-          <Jumbotron>
-
-          </Jumbotron>
-  );
-}
-
-export default Home;
+class Home extends Component {
+    render() {
+        return (
+            <React.Fragment>
+                    <VideoBg />
+            </React.Fragment>
+                    )
+                }
+            }
+            
+export default Home
