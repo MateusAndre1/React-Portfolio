@@ -1,22 +1,72 @@
 @keyframes slideInFromLeft {
     0% {
-      transform: translateX(-100%);
+        transform: translateX(-400%);
     }
+
     100% {
-      transform: translateX(0);
+        transform: translateX(0);
     }
-  }
-
-#homeJ {
-    min-height: 130vh;
-    background-attachment: fixed;
-    background-size: cover;
-    background-repeat: no-repeat;
 }
 
-@media screen and (max-width: 450px) {
-    #homeJ {
-        font-size: 50px;
+@keyframes slideInFromRight {
+    100% {
+        transform: translateX(0%);
     }
-	
+
+    0% {
+        transform: translateX(400%);
+    }
 }
+
+@keyframes slideInFromBottom {
+    100% {
+        transform: translateY(100%);
+    }
+
+    0% {
+        transform: translateY(200vh);
+    }
+}
+
+.leftSide {
+    animation: 1s ease-out 0s 1 slideInFromLeft;
+    font-family: 'Alfa Slab One', cursive;
+    color: white;
+    margin-top: 40vh;
+}
+
+.leftName {
+    font-size: 30px;
+    margin-right: 10px;
+    color: black;
+}
+
+.rightSide {
+    animation: 1s ease-out 0s 1 slideInFromRight;
+    font-family: 'Alfa Slab One', cursive;
+    color: white;
+    margin-top: 40vh;
+    margin-left: 5px;
+}
+
+.rightName {
+    font-size: 30px;
+}
+
+.rightP {
+    color: black;
+}
+
+.btn1:hover {
+    color: black;
+    background-color: white;
+}
+
+.btn1 {
+    animation: 1s ease-out 0s 1 slideInFromBottom;
+    font-family: 'Alfa Slab One', cursive;
+    color: white;
+    border: 2px solid white;
+    background-color: black;
+}
+

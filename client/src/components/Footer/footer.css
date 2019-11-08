@@ -1,8 +1,10 @@
 .footer {
-    background-color: rgb(77, 200, 238);
+    background-color: black;
     height: 60px;
+    font-family: 'Alfa Slab One', cursive;
 }
 #facebook2, #linkedin2 {
-    color: black;
-    font-size: 25px;
+    margin-top: 10px;
+    color: white;
+    font-size: 30px;
 }
