@@ -6,7 +6,7 @@ export default class Navbar extends Component {
     return (
       <React.Fragment>
         <div className="navbar fixed-top mainNav">
-          <a className="navbar-brand logo mt-5" href="/">
+          <a className="navbar-brand logo ml-3 mt-5" href="/">
           <img src="./assets/images/A.png" alt="logo" />
           </a>
           <ul className="nav justify-content-end">

@@ -27,7 +27,14 @@
     max-height: 100px;
 }
 
-.navLinksA, .navLinksP {
+.logo:hover {
+    animation: shake 0.82s cubic-bezier(.36, .07, .19, .97) both;
+    transform: translate3d(0, 0, 0);
+    backface-visibility: hidden;
+    perspective: 1000px;
+}
+
+.navLinksA {
     margin-top: 50px;
     margin-right: 15px;
     font-size: 24px;
@@ -35,7 +42,15 @@
     color: black;
 }
 
-.navLinksA:hover, .navLinksP:hover {
+.navLinksP {
+    margin-top: 50px;
+    margin-right: 15px;
+    font-size: 24px;
+    font-family: 'Alfa Slab One', cursive;
+    color: white;
+}
+
+.navLinksA:hover{
     animation: shake 0.82s cubic-bezier(.36, .07, .19, .97) both;
     transform: translate3d(0, 0, 0);
     backface-visibility: hidden;
@@ -43,10 +58,17 @@
     color: white;
 }
 
+.navLinksP:hover {
+    animation: shake 0.82s cubic-bezier(.36, .07, .19, .97) both;
+    transform: translate3d(0, 0, 0);
+    backface-visibility: hidden;
+    perspective: 1000px;
+    color: black;
+}
+
 @media (max-width: 767px) {
     .navLinksA, .navLinksP {
-        margin-top: 50px;
-        margin-right: 0px;
+        margin: 0px;
         font-size: 18px;
     }
 }
