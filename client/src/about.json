@@ -1,12 +1,12 @@
 [
   {
     "id": 1,
-    "about": "Being a natural problem solver gave me a huge passion for being a developer, fixing broken code is something I greatly enjoy as it gives me something to learn. Among the many things I love about being a developer is how much collaboration is involved in making a perfect app, working with others not only helps you to improve but also gives the same opportunities for others.",
+    "about": "Full Stack Web Developer and graduate from UCF Coding Bootcamp. Being a natural problem solver gave me a huge passion for being a developer, fixing broken code is something I have greatly enjoyed as there's no error I haven't been able to come up with a solution for. Among the many other things I love is how much collaboration is involved in making a perfect app, working with others not only helps you to improve but also gives the same opportunities for others.",
     "img": "./assets/images/profilepic.png"
   },
   {
     "id": 2,
-    "about": "Among the many skills I have been perfecting is mobile responsiveness, I feel this is an important and fundamental skill to make sure any application stands out from others.",
+    "about": "One of the top skills I have been perfecting is mobile responsiveness, I feel this is an important and fundamental skill to make sure any application stands out from others.",
     "img": "./assets/images/responesiveness.png"
   }
 ]
