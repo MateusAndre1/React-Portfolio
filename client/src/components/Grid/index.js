@@ -4,7 +4,7 @@ export function Container({ fluid, children }) {
   return <div className={`container${fluid ? "-fluid" : ""}`}>{children}</div>;
 }
 
-export function Row({ fluid, children }) {
+export function Row({fluid, children }) {
   return <div className={`row${fluid ? "-fluid" : ""}`}>{children}</div>;
 }
 
@@ -13,7 +13,7 @@ export function Col({ size, children }) {
     <div
       className={size
         .split(" ")
-        .map(size => "col-" + size)
+        .map(size => "my-auto mx-auto text-center col-" + size)
         .join(" ")}
     >
       {children}

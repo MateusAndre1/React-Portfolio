@@ -2,7 +2,7 @@ import React from "react";
 import "./style.css";
 
 function Wrapper(props) {
-  return <section className="wrapper">{props.children}</section>;
+  return <section id={props.id} className="wrapper" style={props.style}>{props.children}</section>;
 }
 
 export default Wrapper;

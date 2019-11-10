@@ -1,6 +1,6 @@
 @keyframes slideInFromLeft {
     0% {
-        transform: translateX(-400%);
+        transform: translateX(-100vh);
     }
 
     100% {
@@ -14,25 +14,24 @@
     }
 
     0% {
-        transform: translateX(400%);
+        transform: translateX(100vh);
     }
 }
 
 @keyframes slideInFromBottom {
     100% {
-        transform: translateY(100%);
+        transform: translateY(0%);
     }
 
     0% {
-        transform: translateY(200vh);
+        transform: translateY(50vh);
     }
 }
 
 .leftSide {
     animation: 1s ease-out 0s 1 slideInFromLeft;
-    font-family: 'Alfa Slab One', cursive;
+    animation-duration: 2s;
     color: white;
-    margin-top: 40vh;
 }
 
 .leftName {
@@ -43,9 +42,8 @@
 
 .rightSide {
     animation: 1s ease-out 0s 1 slideInFromRight;
-    font-family: 'Alfa Slab One', cursive;
+    animation-duration: 2s;
     color: white;
-    margin-top: 40vh;
     margin-left: 5px;
 }
 
@@ -64,9 +62,13 @@
 
 .btn1 {
     animation: 1s ease-out 0s 1 slideInFromBottom;
-    font-family: 'Alfa Slab One', cursive;
+    animation-duration: 2s;
     color: white;
     border: 2px solid white;
     background-color: black;
 }
+
+/* #about {
+    background-color: white;
+} */
 

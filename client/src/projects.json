@@ -1,42 +1,42 @@
 [
   {
     "id": 1,
-    "name": "",
+    "about": "",
     "image": "./assets/images/goku.png"
   },
   {
     "id": 2,
-    "name": "",
+    "about": "",
     "image": ""
   },
   {
     "id": 3,
-    "name": "",
+    "about": "",
     "image": ""
   },
   {
     "id": 4,
-    "name": "",
+    "about": "",
     "image": ""
   },
   {
     "id": 5,
-    "name": "",
+    "about": "",
     "image": ""
   },
   {
     "id": 6,
-    "name": "",
+    "about": "",
     "image": ""
   },
   {
     "id": 7,
-    "name": "",
+    "about": "",
     "image": ""
   },
   {
     "id": 8,
-    "name": "",
+    "about": "",
     "image": ""
   }
 ]
