@@ -1,12 +1,15 @@
 import React, { Component } from 'react';
-import { Container } from "../../components/Grid"
+import { Row, Container } from "../../components/Grid"
 import AboutCard from "../../components/AboutCard";
-import about from "../../about.json"
-import "./About.css"
+import SkillsCard from "../../components/SkillsCard";
+import about from "../../about.json";
+import skills from "../../skills.json";
+import "./About.css";
 
 class About extends Component {
     state = {
-        about
+        about,
+        skills
     };
 
     render() {
@@ -20,6 +23,16 @@ class About extends Component {
                         img={aboutMe.img}
                     />
                 ))}
+                <div style={{marginBottom: "100px"}}>
+                <Row>
+                    {this.state.skills.map(aboutMe => (
+                        <SkillsCard
+                            key={aboutMe.id}
+                            img={aboutMe.img}
+                        />
+                    ))}
+                </Row>
+                </div>
             </Container>
         )
     }

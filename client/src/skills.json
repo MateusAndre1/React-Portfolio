@@ -20,9 +20,9 @@
     "img": "./assets/images/css.png"
   },
   {
-    "id": 5,
-    "about": "git",
-    "img": "./assets/images/git.png"
+    "id": 7,
+    "about": "js",
+    "img": "./assets/images/javascript.png"
   },
   {
     "id": 6,
@@ -30,14 +30,9 @@
     "img": "./assets/images/html.png"
   },
   {
-    "id": 7,
-    "about": "js",
-    "img": "./assets/images/js.png"
-  },
-  {
-    "id": 8,
-    "about": "mongodb",
-    "img": "./assets/images/mongodb.png"
+    "id": 5,
+    "about": "git",
+    "img": "./assets/images/git.png"
   },
   {
     "id": 9,
@@ -45,8 +40,18 @@
     "img": "./assets/images/mysql.png"
   },
   {
+    "id": 8,
+    "about": "mongodb",
+    "img": "./assets/images/mongodb.png"
+  },
+  {
     "id": 10,
     "about": "nodejs",
     "img": "./assets/images/nodejs.png"
+  },
+  {
+    "id": 11,
+    "about": "firebase",
+    "img": "./assets/images/firebase.png"
   }
 ]

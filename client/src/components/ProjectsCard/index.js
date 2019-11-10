@@ -1,20 +1,24 @@
 import React from "react";
 import { Col, Row } from "../Grid";
-import "./AboutCard.css";
+import "./ProjectsCard.css";
 
-export default function AboutCard(props) {
+export default function ProjectsCard(props) {
 
   return (
     <React.Fragment>
       <div className="cardAbout">
         <Row>
-          <Col size="sm-3">
-            <img src={props.img} className="img-fluid" alt="profile" />
+          <Col size="md-3">
+            <img src={props.img} className="img-fluid" alt="project" />
           </Col>
-          <Col size="sm-8">
+          <Col size="md-7">
             <div className="aboutSection">
               <p>{props.about}</p>
             </div>
+          </Col>
+          <Col size="md-2">
+              <a href={props.link}><i className="fas fa-link links"></i></a> 
+              <a href={props.git}><i className="fab fa-github links"></i></a> 
           </Col>
         </Row>
       </div>
