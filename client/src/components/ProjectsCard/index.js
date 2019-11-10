@@ -6,7 +6,7 @@ export default function ProjectsCard(props) {
 
   return (
     <React.Fragment>
-      <div className="cardAbout">
+      <div className="cardAbout projects">
         <Row>
           <Col size="md-3">
             <img src={props.img} className="img-fluid" alt="project" />

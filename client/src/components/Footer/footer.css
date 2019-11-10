@@ -1,11 +1,17 @@
 .footer {
     background-color: black;
-    height: 60px;
-    width: 100.9%;
+    height: 105px;
+    width: 99vw;
     font-family: 'Alfa Slab One', cursive;
 }
-#facebook2, #linkedin2 {
-    margin-top: 10px;
+#footerLinks {
+    margin: 0px 0px 0 10px;
     color: white;
     font-size: 30px;
+}
+
+@media (max-width: 767px) {
+    .footer {
+        width: 102vw;
+    }
 }
