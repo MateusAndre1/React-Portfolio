@@ -16,6 +16,7 @@ class About extends Component {
                 {this.state.about.map(aboutMe => (
                     <AboutCard
                         about={aboutMe.about}
+                        key={aboutMe.id}
                         img={aboutMe.img}
                     />
                 ))}
