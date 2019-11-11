@@ -23,17 +23,19 @@ class About extends Component {
                         img={aboutMe.img}
                     />
                 ))}
-                <div style={{marginBottom: "100px"}}>
-                <Row>
-                    {this.state.skills.map(aboutMe => (
-                        <SkillsCard
-                            key={aboutMe.id}
-                            img={aboutMe.img}
-                        />
-                    ))}
-                </Row>
+                <div style={{ marginBottom: "100px" }}>
+                    <div className="cardAbout">
+                        <Row>
+                            {this.state.skills.map(aboutMe => (
+                                <SkillsCard
+                                    key={aboutMe.id}
+                                    img={aboutMe.img}
+                                />
+                            ))}
+                        </Row>
+                    </div>
                 </div>
-            </Container>
+            </Container >
         )
     }
 }

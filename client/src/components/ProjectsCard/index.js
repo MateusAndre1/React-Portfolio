@@ -12,8 +12,8 @@ export default function ProjectsCard(props) {
             <img src={props.img} className="img-fluid" alt="project" />
           </Col>
           <Col size="md-7">
-            <div className="aboutSection">
-              <p>{props.about}</p>
+            <div className="aboutSection" style={{minHeight: "170px"}}>
+              <p className="mt-4">{props.about}</p>
             </div>
           </Col>
           <Col size="md-2">

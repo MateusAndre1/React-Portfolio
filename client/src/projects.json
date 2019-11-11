@@ -1,35 +1,35 @@
 [
   {
     "id": 1,
-    "about": "Meetographers: A social networking app for photographers to connect with and get booked by customers. You will be able to list your specializations as well as upload some sample photography. You can list your prices and be booked from our web interface. (Currently under development, pre-beta mode up)",
+    "about": "Meetographers: A social networking app for photographers to connect with and get booked by customers. You will be able to list your specializations as well as upload some sample photography. You can list your prices and be booked from our web interface. (Currently under development, pre-beta mode up).",
     "img": "./assets/images/meetographers.png",
     "link": "https://www.meetographers.com",
     "git": "https://github.com/MateusAndre1/Meetophotographers"
   },
   {
     "id": 2,
-    "about": "gAmerZ INDEX: Game sharing app you can add video games you own to your own library and choose to trade or share games among other people.",
+    "about": "gAmerZ INDEX: Game sharing app you can add video games you own to your library and choose to trade or share games among other people. Using MySQL with sequelize I imported a list of 16,000+ games information. With a table for passport user information along with the games table, I created a third table to mark who owns which game by relating both the first and second tables. I then connected the games table with an API call to first get a game ID followed by the game ID I called the API again for the cover photo of the game.",
     "img": "./assets/images/gamerz.png",
     "link": "https://gamerz-index.herokuapp.com/",
     "git": "https://github.com/MateusAndre1/dbWorld"
   },
   {
-    "id": 3,
+    "id": 5,
+    "about": "My Vacation Optimizer: Vacation planning made easy. You will be able to first (and most importantly) find out if the weather will be to your liking. From there you can take a small tour through a video of the location, or call one of the local tour guides for questions. Finally, you can plan out the entire vacation right on the app! On this app, I used localstorage to save user information from which city they chose to take a vacation, followed by grabbing the information on the next page to pull up various youtube and google maps API to display videos and information about the city to the customer.",
+    "img": "./assets/images/vacation.png",
+    "link": "https://mateusandre1.github.io/My-Vacation-Optimizer/",
+    "git": "https://github.com/MateusAndre1/My-Vacation-Optimizer"
+  },
+  {
+    "id": 4,
     "about": "Saiyan Clicky Game: Ready to test your memory? Built with ReactJS this game allows you to click on different DBZ Saiyans until you win, just dont click the same saiyan card twice!",
     "img": "./assets/images/saiyans.png",
     "link": "https://mateusandre1.github.io/ReactJS-Clicky-Game/",
     "git": "https://github.com/MateusAndre1/ReactJS-Clicky-Game"
   },
   {
-    "id": 4,
-    "about": "My Vacation Optimizer: Vacation planning made easy. You will be able to first (and most importantly) find out if the weather will be to your liking. From there you can take a small tour through a video of the location, or call one of the local tour guides for questions. Finally you can plan out the entire vacation right on the app!",
-    "img": "./assets/images/vacation.png",
-    "link": "https://mateusandre1.github.io/My-Vacation-Optimizer/",
-    "git": "https://github.com/MateusAndre1/My-Vacation-Optimizer"
-  },
-  {
     "id": 5,
-    "about": "MCU Giphy Search: MCU themed Giphy API search. Here you will be able to find giphys, save your favorites (implemented with localstorage) and copy the giphy links through the cards body.",
+    "about": "MCU Giphy Search: MCU themed Giphy API search. Here you will be able to find giphys, save your favorites (implemented with localstorage) and copy the giphy link through the card's body. You will also be able to pull up only your favorited giphys and clear the input field.",
     "img": "./assets/images/giphy.png",
     "link": "https://mateusandre1.github.io/Giphy-Search/",
     "git": "https://github.com/MateusAndre1/Giphy-Search"

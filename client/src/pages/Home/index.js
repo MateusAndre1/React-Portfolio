@@ -32,7 +32,7 @@ class Home extends Component {
                 <Wrapper style={{minHeight: "100vh"}} id={"about"}>
                     <About />
                 </Wrapper>
-                <Wrapper style={{minHeight: "100vh"}} id={"projects"}>
+                <Wrapper style={{minHeight: "100vh", marginBottom: "100px"}} id={"projects"}>
                     <Projects />
                 </Wrapper>
             </React.Fragment>

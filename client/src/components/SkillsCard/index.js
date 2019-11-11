@@ -6,7 +6,7 @@ export default function SkillsCard(props) {
 
   return (
     <React.Fragment>
-          <Col size="sm-3">
+          <Col size="4">
           <img src={props.img} className="img-fluid" alt="skills" />
           </Col>
     </React.Fragment>
