@@ -8,7 +8,7 @@
   },
   {
     "id": 2,
-    "about": "gAmerZ INDEX: Game sharing app you can add video games you own to your library and choose to trade or share games among other people. Using MySQL with sequelize I imported a list of 16,000+ games information. With a table for passport user information along with the games table, I created a third table to mark who owns which game by relating both the first and second tables. I then connected the games table with an API call to first get a game ID followed by the game ID I called the API again for the cover photo of the game.",
+    "about": "gAmerZ INDEX: Game sharing app you can add video games you own to your library and choose to trade or share games among other people. Using MySQL with sequelize I created a games table with an imported list of information on 16,000 games. With the table for user information and the games table, I created a third table owned to mark who owns which game by relating both the first and second tables. Getting the cover photo of the games I connected the games table to an API call to first get a game ID and after retrieving the game ID I called the API a second time for the cover photo of the game.",
     "img": "./assets/images/gamerz.png",
     "link": "https://gamerz-index.herokuapp.com/",
     "git": "https://github.com/MateusAndre1/dbWorld"
