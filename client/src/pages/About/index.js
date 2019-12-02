@@ -26,10 +26,10 @@ class About extends Component {
                 <div style={{ marginBottom: "100px" }}>
                     <div className="cardAbout">
                         <Row>
-                            {this.state.skills.map(aboutMe => (
+                            {this.state.skills.map(skill => (
                                 <SkillsCard
-                                    key={aboutMe.id}
-                                    img={aboutMe.img}
+                                    key={skill.id}
+                                    img={skill.img}
                                 />
                             ))}
                         </Row>
